@@ -9,8 +9,8 @@ import (
 
 func main() {
 	index.BaseHandler()
-	fmt.Println("Starting server at 80")
-	if err := http.ListenAndServe(":80", nil); err != nil {
+	fmt.Println("Starting server at 8000")
+	if err := http.ListenAndServe(":8000", nil); err != nil {
 		log.Fatal(err)
 	}
 }
